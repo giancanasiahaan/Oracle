@@ -1,0 +1,1 @@
+select dbauser.username,dbauser.account_status from all_users alluser inner join dba_users dbauser on alluser.user_id=dbauser.user_id where alluser.oracle_maintained = 'N';
