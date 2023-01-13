@@ -1,0 +1,1 @@
+ALTER USER userneedtobeunlock IDENTIFIED BY password ACCOUNT UNLOCK;
